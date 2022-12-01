@@ -1,0 +1,11 @@
+To run seed use command-
+python3 seed.py -ip <ip-addr> -port <port number>
+
+To run peer use command-
+python3 peer.py -ip <ip-addr> -port <port number>
+
+Some optional arguments-
+1. If you want livenss messages to be dumped then give flag --liveness while running peer.py
+2. Default name of output files are outputseed.txt and outputpeer.txt if you want to change it then use flag --outputfile <file-name> for both seed and peer
+3. Default timestamp is unix based if you want normal one use flag --time HUMAN
+4. If you want ip address to be visible as ip-addr:port then use flag --report-ports while running peer.py
